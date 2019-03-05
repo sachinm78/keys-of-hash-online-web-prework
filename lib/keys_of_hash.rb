@@ -4,13 +4,10 @@ class Hash
     self.each do |k,v|
       arguments.each do |i|
         if i == value
-        array.push(key)
+        array << key
         end
       end 
-
-
     end
-    return array
+  return array
   end
-  
 end 
