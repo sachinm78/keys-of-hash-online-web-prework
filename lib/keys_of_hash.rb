@@ -3,7 +3,7 @@ class Hash
     array = []
     self.each do |k,v|
       arguments.each do |i|
-        if i == value
+        if i == v
         array.push(key)
         end
       end 
